@@ -37,7 +37,6 @@ body {
 }
 .btn-container {
   display: flex;
-
   justify-content: center;
   align-items: center;
 }
@@ -48,13 +47,13 @@ body {
   background-color: #bababa00;
 }
 .btn-next {
-  border-top: 1px dotted #fff;
-  border-radius: 0 0 0 2rem;
+  border-top: 1px solid #fff;
+  border-radius: 0 0 2rem 0;
   padding: 2rem;
 }
 .btn-perv {
-  border-top: 1px dotted #fff;
-  border-radius: 0 0 2rem 0;
+  border-top: 1px solid #fff;
+  border-radius: 0 0 0 2rem;
   padding: 2rem;
 }
 .btn-reset {
