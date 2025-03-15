@@ -18,7 +18,7 @@ btnNext.addEventListener("click", function () {
 });
 
 btnPerv.addEventListener("click", function () {
-  if (num.textContent < 1) {
+  if (num.textContent == 0) {
     num.classList.add("number-zero");
   }
 
