@@ -1,4 +1,4 @@
-const num = document.querySelector(".number");
+"use strict";
 const btnPerv = document.querySelector(".btn-perv");
 const btnNext = document.querySelector(".btn-next");
 const btnReset = document.querySelector(".btn-reset");
