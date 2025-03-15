@@ -9,6 +9,7 @@ const update = function () {
   document.getElementById("number").textContent = currentNum;
 };
 
+//Event handlers .
 btnNext.addEventListener("click", function () {
   currentNum++;
   update();
