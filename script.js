@@ -12,11 +12,16 @@ const update = function () {
 
 //Event handlers .
 btnNext.addEventListener("click", function () {
+  num.classList.remove("number-zero");
   currentNum++;
   update();
 });
 
 btnPerv.addEventListener("click", function () {
+  if (num.textContent < 1) {
+    num.classList.add("number-zero");
+  }
+
   if (num.textContent > 0) {
     currentNum--;
     update();
@@ -25,6 +30,7 @@ btnPerv.addEventListener("click", function () {
   }
 });
 btnReset.addEventListener("click", function () {
+  num.classList.remove("number-zero");
   currentNum = 0;
   update();
 });
